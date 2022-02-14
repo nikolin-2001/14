@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-siu%_hpym@$r(phsyb0n%-88cdp8#-eu=fbm-!!945=$m+l0p^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 listen_addresses = '*'
 
 
