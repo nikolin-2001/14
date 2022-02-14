@@ -28,7 +28,6 @@ SECRET_KEY = 'django-insecure-siu%_hpym@$r(phsyb0n%-88cdp8#-eu=fbm-!!945=$m+l0p^
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-listen_addresses = '*'
 
 
 # Application definition
@@ -60,6 +59,11 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8081',
+)
+
 ROOT_URLCONF = 'zaya.urls'
 
 TEMPLATES = [
@@ -87,7 +91,7 @@ WSGI_APPLICATION = 'zaya.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'febra14',
+        'NAME': 'nadya',
         'USER': 'postgres',
         'PASSWORD': 'ps_password',
         'HOST': 'localhost',
