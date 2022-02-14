@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-siu%_hpym@$r(phsyb0n%-88cdp8#-eu=fbm-!!945=$m+l0p^
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+listen_addresses = '*'
 
 
 # Application definition
