@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'zaya.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '14feb',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'ps_password',
         'HOST': 'localhost',
