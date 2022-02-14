@@ -1,1 +1,1 @@
-web: gunicorn DjangoRestApisPostgreSQL.wsgi --log-file -
+web: gunicorn myapiPostgreSQL.wsgi --log-file -
